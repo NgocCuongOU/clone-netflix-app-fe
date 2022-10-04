@@ -1,9 +1,12 @@
-function App() {
+import Home from './home/Home.jsx';
+import './app.scss';
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">Hello world</header>
+      <Home />
     </div>
   );
-}
+};
 
 export default App;
